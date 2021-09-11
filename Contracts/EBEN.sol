@@ -1,4 +1,4 @@
-// File: https://github.com/BenTokenFinance/bentoken/blob/main/contracts/utils/Address.sol
+// File: https://github.com/steaksdotcash/steaktoken/blob/main/contracts/utils/Address.sol
 
 // SPDX-License-Identifier: MIT
 
@@ -160,7 +160,7 @@ library Address {
         }
     }
 }
-// File: https://github.com/BenTokenFinance/bentoken/blob/main/contracts/math/SafeMath.sol
+// File: https://github.com/steaksdotcash/steaktoken/blob/main/contracts/math/SafeMath.sol
 
 
 
@@ -350,7 +350,7 @@ library SafeMath {
         }
     }
 }
-// File: https://github.com/BenTokenFinance/bentoken/blob/main/contracts/libs/IBEP20.sol
+// File: https://github.com/steaksdotcash/steaktoken/blob/main/contracts/libs/IBEP20.sol
 
 
 
@@ -446,7 +446,7 @@ interface IBEP20 {
      */
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
-// File: https://github.com/BenTokenFinance/bentoken/blob/main/contracts/GSN/Context.sol
+// File: https://github.com/steaksdotcash/steaktoken/blob/main/contracts/GSN/Context.sol
 
 
 
@@ -476,7 +476,7 @@ contract Context {
         return msg.data;
     }
 }
-// File: https://github.com/BenTokenFinance/bentoken/blob/main/contracts/access/Ownable.sol
+// File: https://github.com/steaksdotcash/steaktoken/blob/main/contracts/access/Ownable.sol
 
 
 
@@ -553,7 +553,7 @@ contract Ownable is Context {
         _owner = newOwner;
     }
 }
-// File: https://github.com/BenTokenFinance/bentoken/blob/main/contracts/libs/BEP20.sol
+// File: https://github.com/steaksdotcash/steaktoken/blob/main/contracts/libs/BEP20.sol
 
 
 
@@ -854,7 +854,7 @@ contract BEP20 is Context, IBEP20, Ownable {
         _approve(account, _msgSender(), _allowances[account][_msgSender()].sub(amount, 'BEP20: burn amount exceeds allowance'));
     }
 }
-// File: github/BenTokenFinance/bentoken/contracts/token/GoldenBen.sol
+// File: github/steaksdotcash/steaktoken/contracts/token/GoldenSteak.sol
 
 
 
